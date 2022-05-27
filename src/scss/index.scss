@@ -1,0 +1,35 @@
+@import './_common.scss';
+
+.title-area {
+  margin-bottom: 50px;
+
+  h1 {
+    color: brown;
+  }
+}
+
+.thum {
+  img {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: calc(100vw / 30);
+  display: none; /* エフェクト適用前に一瞬見えるのを防ぐため */
+}
+
+h1 span {
+  display: inline-block;
+  min-width: 10px;
+  opacity: 0;
+  transform: scale(10);
+}
+
+h1 span.motion {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s;
+}

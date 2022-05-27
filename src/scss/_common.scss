@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 20px;
+}
+
+.title-area {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('@image/bg_image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}

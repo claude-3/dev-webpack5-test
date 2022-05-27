@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // TSを「ECMAScript ５」に変換 ※デフォルト？
+    "target": "es5",
+    // TypeScriptがPromiseの存在を認識できるようにする
+    "lib": ["dom", "es2015"],
+    // TSのモジュール管理を「ES Modules」として出力
+    "module": "ES2015",
+    "sourceMap": true,
+    "strict": true
+  }
+}
